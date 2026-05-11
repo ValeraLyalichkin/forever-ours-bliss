@@ -7,7 +7,7 @@ import { Venue } from "@/components/sections/Venue";
 import { DressCode } from "@/components/sections/DressCode";
 import { Rsvp } from "@/components/sections/Rsvp";
 import { Countdown } from "@/components/sections/Countdown";
-import birdsLine from "@/assets/birds-line.png";
+
 
 export const Route = createFileRoute("/")({
   component: Index,
