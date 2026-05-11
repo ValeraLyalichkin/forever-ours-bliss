@@ -22,8 +22,7 @@ export function Hero() {
         <img
           src={couple}
           alt="Наталья и Валерий"
-          className="w-[68vw] max-w-[340px] aspect-[3/4.4] object-cover"
-          style={{ borderRadius: "50% 50% 12px 12px / 38% 38% 8% 8%" }}
+          className="w-[68vw] max-w-[340px] aspect-[3/4.4] object-cover rounded-2xl"
         />
       </div>
 
