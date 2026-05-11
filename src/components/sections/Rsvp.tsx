@@ -155,7 +155,12 @@ ${attending === "yes" ? `🚌 Трансфер: ${transfer === "after" ? "Да, 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <div>
-      <p className="font-display text-xl mb-3 text-forest">{label}</p>
+      <p
+        className="mb-4 text-forest font-semibold text-lg md:text-xl tracking-wide"
+        style={{ fontFamily: "'Montserrat', sans-serif", color: "#2F4156" }}
+      >
+        {label}
+      </p>
       {children}
     </div>
   );
