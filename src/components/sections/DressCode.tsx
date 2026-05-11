@@ -5,11 +5,10 @@ const colors = [
   { hex: "#5A7493", name: "Twilight" },
   { hex: "#8BA3C5", name: "Cornflower" },
   { hex: "#C8D9E6", name: "Sky Blue" },
-  { hex: "#F7C9D4", name: "Azalea" },
-  { hex: "#AC8266", name: "Caramel" },
   { hex: "#41312A", name: "Espresso" },
-  { hex: "#E9D4C3", name: "Sand" },
-  { hex: "#F7CACA", name: "Blush" },
+  { hex: "#402D21", name: "Cocoa" },
+  { hex: "#AC8266", name: "Caramel" },
+  { hex: "#CFB59E", name: "Almond" },
 ];
 
 export function DressCode() {
@@ -21,9 +20,9 @@ export function DressCode() {
           Мы будем искренне рады, если в своих образах вы учтёте цветовую гамму нашего праздника
         </p>
 
-        <div className="mt-12 flex flex-wrap md:flex-nowrap justify-center items-start gap-4 md:gap-3">
+        <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-3">
           {colors.map((c) => (
-            <div key={c.hex} className="flex flex-col items-center basis-[calc(33.333%-1rem)] sm:basis-[calc(25%-1rem)] md:basis-0 md:flex-1 md:min-w-0">
+            <div key={c.hex} className="flex flex-col items-center">
               <div
                 className="w-full aspect-square rounded-2xl shadow-md border border-ink/10"
                 style={{ background: c.hex }}
