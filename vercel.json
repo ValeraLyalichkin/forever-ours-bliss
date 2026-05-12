@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/((?!assets|_shell|404|.*\\..*).*)", "destination": "/_shell.html" }
-  ]
-}
