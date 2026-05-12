@@ -26,7 +26,7 @@ export function Countdown() {
     ["секунд", t.seconds],
   ];
   return (
-    <section className="relative overflow-hidden bg-cream py-24 px-4">
+    <section className="relative overflow-hidden bg-cream py-20 px-4">
       <SketchCorners opacity={0.75} />
       <Reveal className="relative z-10 max-w-3xl mx-auto text-center">
         <p className="font-script text-5xl md:text-6xl text-wine">До встречи через...</p>
