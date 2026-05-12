@@ -12,7 +12,7 @@ export function Hero() {
         <div className="font-display italic text-4xl md:text-5xl text-cream leading-none mt-2 mb-2 tracking-wide">
           End
         </div>
-        <h1 className="font-script text-7xl md:text-8xl text-cream leading-[0.9] -mt-2">
+        <h1 className="font-script text-7xl md:text-8xl text-cream leading-[0.9]">
           Валерий
         </h1>
       </div>
