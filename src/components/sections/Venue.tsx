@@ -6,7 +6,7 @@ export function Venue() {
   const yandexUrl = `https://yandex.ru/maps/?rtext=~${encodeURIComponent("Саранск, Республиканская 103")}&rtt=auto`;
 
   return (
-    <section className="relative bg-forest text-cream py-24 px-4">
+    <section className="relative bg-forest text-cream py-20 px-4">
       <Reveal className="relative z-10 max-w-3xl mx-auto text-center">
         <p className="font-script text-5xl md:text-6xl mb-2">Место проведения</p>
         <h3 className="font-display text-3xl md:text-4xl mb-2">AZIMUT Отель</h3>
