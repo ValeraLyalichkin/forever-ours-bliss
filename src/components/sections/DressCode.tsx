@@ -13,7 +13,7 @@ const colors = [
 
 export function DressCode() {
   return (
-    <section className="relative bg-cream py-24 px-4">
+    <section className="relative bg-cream py-20 px-4">
       <Reveal className="relative z-10 max-w-6xl mx-auto text-center">
         <p className="font-script text-5xl md:text-6xl text-wine">Дресс-код</p>
         <p className="mt-6 max-w-xl mx-auto text-ink/75 leading-relaxed">

@@ -3,16 +3,16 @@ import { SketchCorners } from "../SketchCorners";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden min-h-screen bg-forest flex flex-col items-center px-6 pt-12 pb-16">
+    <section className="relative overflow-hidden min-h-screen bg-forest flex flex-col items-center justify-center px-6 py-20">
       <SketchCorners trSize="w-44 sm:w-60 md:w-80" blSize="w-48 sm:w-64 md:w-96" opacity={0.9} />
-      <div className="relative z-10 max-w-md w-full text-center">
+      <div className="relative z-10 max-w-md w-full text-center mx-auto">
         <h1 className="font-script text-7xl md:text-8xl text-cream leading-[0.9]">
           Наталья
         </h1>
-        <div className="font-script text-6xl md:text-7xl text-cream leading-none -mt-2">
-          &amp;
+        <div className="font-display italic text-4xl md:text-5xl text-cream leading-none mt-2 mb-2 tracking-wide">
+          End
         </div>
-        <h1 className="font-script text-7xl md:text-8xl text-cream leading-[0.9] -mt-2">
+        <h1 className="font-script text-7xl md:text-8xl text-cream leading-[0.9]">
           Валерий
         </h1>
       </div>

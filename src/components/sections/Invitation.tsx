@@ -2,7 +2,7 @@ import { Reveal } from "../Reveal";
 
 export function Invitation() {
   return (
-    <section className="relative bg-cream text-forest py-24 px-4">
+    <section className="relative bg-cream text-forest py-20 px-4">
       <Reveal className="relative z-10 max-w-2xl mx-auto text-center">
         <h2 className="font-display text-3xl md:text-5xl mb-8 text-forest">
           Дорогие родные и близкие!
