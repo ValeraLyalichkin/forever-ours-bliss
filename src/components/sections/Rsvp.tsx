@@ -65,7 +65,7 @@ ${attending === "yes" ? `🚌 Трансфер: ${transfer === "after" ? "Да, 
     <section id="rsvp" className="relative overflow-hidden bg-forest text-forest py-20 px-4">
       <SketchCorners opacity={0.4} />
       <Reveal className="relative z-10 max-w-xl mx-auto bg-cream rounded-3xl shadow-2xl p-8 sm:p-12">
-        <p className="font-display text-4xl md:text-5xl text-center mb-10 tracking-wide text-forest">Анкета гостя</p>
+        <p className="font-serif text-4xl md:text-5xl text-center mb-10 tracking-wide text-forest">Анкета гостя</p>
 
         <form onSubmit={onSubmit} className="space-y-8">
           <Field label="Фамилия и имя">

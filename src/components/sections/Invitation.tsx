@@ -4,7 +4,7 @@ export function Invitation() {
   return (
     <section className="relative bg-cream text-forest py-20 px-4">
       <Reveal className="relative z-10 max-w-2xl mx-auto text-center">
-        <h2 className="font-display text-3xl md:text-5xl mb-8 text-forest">
+        <h2 className="font-serif text-3xl md:text-5xl mb-8 text-forest">
           Дорогие родные и близкие!
         </h2>
         <p className="text-base md:text-lg leading-relaxed text-forest tracking-wide font-light">

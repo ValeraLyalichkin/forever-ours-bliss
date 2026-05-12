@@ -17,7 +17,7 @@ export function Programme() {
   return (
     <section className="relative bg-cream py-20 px-6 sm:px-10">
       <Reveal className="max-w-3xl mx-auto text-center mb-10">
-        <p className="font-script text-5xl md:text-6xl text-wine">Программа дня</p>
+        <p className="font-serif text-5xl md:text-6xl text-wine">Программа дня</p>
       </Reveal>
 
       <div className="max-w-2xl mx-auto">
