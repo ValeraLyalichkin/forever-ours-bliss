@@ -7,7 +7,7 @@ export function Invitation() {
         <h2 className="font-display text-3xl md:text-5xl mb-8 text-cream">
           Дорогие родные и близкие!
         </h2>
-        <p className="text-base md:text-lg leading-relaxed text-cream/90 tracking-wide font-light">
+        <p className="text-base md:text-lg leading-relaxed text-cream tracking-wide font-light">
           С особой радостью и волнением приглашаем Вас разделить с нами самый важный день в нашей жизни — день, с которого начинается наша семья
         </p>
       </Reveal>
