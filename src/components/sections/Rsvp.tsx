@@ -5,7 +5,7 @@ import { launchHearts } from "@/lib/hearts";
 import { SketchCorners } from "../SketchCorners";
 
 // Вставьте сюда URL вашего Google Apps Script Web App (см. инструкцию ниже)
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyKmlqBjlOoGXHLw4dHyQ9STrXVxItVw-Qrouzz4zNVDmnbrT1QTGxNpb63L_2t-KFpXg/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyOwNISbIm3Pkd-TFLDWd31jJ-fmDmLkn0HP0mh2sT9oNfuRHDznpDp0rRRYsIW000r7A/exec;
 
 const ALCOHOL = ["Белое вино", "Красное вино", "Виски", "Водка", "Самогон"];
 
