@@ -25,7 +25,8 @@ export function DressCode() {
                 className="w-full aspect-square rounded-lg shadow-md border border-ink/10"
                 style={{ background: c.hex }}
               />
-              <p className="mt-2 text-[9px] sm:text-[10px] text-ink/60 font-mono">{c.hex}</p>
+              <p className="mt-2 text-[10px] sm:text-xs text-ink/80 tracking-wide">{c.name}</p>
+              <p className="mt-0.5 text-[9px] sm:text-[10px] text-ink/50 font-mono">{c.hex}</p>
             </div>
           ))}
         </div>

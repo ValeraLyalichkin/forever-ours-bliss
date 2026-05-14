@@ -4,10 +4,8 @@ import { Reveal } from "../Reveal";
 import { launchHearts } from "@/lib/hearts";
 import { SketchCorners } from "../SketchCorners";
 
-const TG_TARGETS = [
-  { token: "8721644593:AAEH3iS0MueJTvQDAZ3lNDI3JIZbj8XzZK4", chatId: "1231365096" },
-  { token: "8462254638:AAEwPM3Xj_ZTufyu1Mti-bC-Gh8BzGVNris", chatId: "1240623526" },
-];
+// Вставьте сюда URL вашего Google Apps Script Web App (см. инструкцию ниже)
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/REPLACE_WITH_YOUR_DEPLOYMENT_ID/exec";
 
 const ALCOHOL = ["Белое вино", "Красное вино", "Виски", "Водка", "Самогон"];
 
@@ -38,24 +36,22 @@ export function Rsvp() {
     launchHearts(70);
 
     const drinkLine = noAlcohol ? "Не пью алкоголь" : (drinks.length ? drinks.join(", ") : "—");
-    const text =
-`💌 Новый ответ на приглашение
-
-👤 Гость: ${name}
-✅ Присутствие: ${attending === "yes" ? "Да, буду" : "К сожалению, нет"}
-${attending === "yes" ? `🚌 Трансфер: ${transfer === "after" ? "Да, только после торжества" : "Не нужен"}\n` : ""}🍷 Напитки: ${drinkLine}
-🥗 Аллергия: ${allergy.trim() || "—"}`;
+    const payload = {
+      timestamp: new Date().toISOString(),
+      name,
+      attending: attending === "yes" ? "Да, буду" : "К сожалению, нет",
+      transfer: attending === "yes" ? (transfer === "after" ? "Да, только после торжества" : "Не нужен") : "—",
+      drinks: drinkLine,
+      allergy: allergy.trim() || "—",
+    };
 
     try {
-      await Promise.allSettled(
-        TG_TARGETS.map((t) =>
-          fetch(`https://api.telegram.org/bot${t.token}/sendMessage`, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ chat_id: t.chatId, text }),
-          }),
-        ),
-      );
+      await fetch(GOOGLE_SCRIPT_URL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify(payload),
+      });
     } catch {/* ignore */}
 
     setTimeout(() => navigate({ to: "/thanks" }), 1400);
