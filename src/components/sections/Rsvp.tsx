@@ -4,10 +4,8 @@ import { Reveal } from "../Reveal";
 import { launchHearts } from "@/lib/hearts";
 import { SketchCorners } from "../SketchCorners";
 
-const TG_TARGETS = [
-  { token: "8721644593:AAEH3iS0MueJTvQDAZ3lNDI3JIZbj8XzZK4", chatId: "1231365096" },
-  { token: "8462254638:AAEwPM3Xj_ZTufyu1Mti-bC-Gh8BzGVNris", chatId: "1240623526" },
-];
+// Вставьте сюда URL вашего Google Apps Script Web App (см. инструкцию ниже)
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/REPLACE_WITH_YOUR_DEPLOYMENT_ID/exec";
 
 const ALCOHOL = ["Белое вино", "Красное вино", "Виски", "Водка", "Самогон"];
 
