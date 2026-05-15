@@ -126,7 +126,7 @@ export function Rsvp() {
               value={allergy}
               onChange={(e) => setAllergy(e.target.value)}
               maxLength={500}
-              rows={2}
+              rows={1}
               className="w-full bg-transparent border-b border-forest/40 py-2 text-forest placeholder:text-[#666] focus:border-forest outline-none resize-none"
               placeholder="Опишите, если есть"
             />

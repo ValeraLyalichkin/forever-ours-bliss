@@ -3,7 +3,7 @@ import hotel from "@/assets/hotel.webp";
 
 export function Venue() {
   const address = "Республика Мордовия, г. Саранск, ул. Республиканская, д. 103";
-  const yandexUrl = `https://yandex.ru/maps/?rtext=~${encodeURIComponent("Саранск, Республиканская 103")}&rtt=auto`;
+  const yandexUrl = "https://yandex.ru/maps/org/azimut_otel_saransk/1175404353/?ll=45.170436%2C54.173622&z=16";
 
   return (
     <section className="relative bg-forest text-cream py-20 px-4">
