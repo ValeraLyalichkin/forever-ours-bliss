@@ -9,8 +9,11 @@ export function Hero() {
         <h1 className="font-script text-6xl sm:text-7xl md:text-8xl text-cream leading-[0.9]">
           Наталья
         </h1>
-        <div className="font-script text-5xl sm:text-6xl md:text-7xl text-cream leading-none mt-1 mb-1 sm:mt-2 sm:mb-2">
-          End
+        <div
+          className="text-5xl sm:text-6xl md:text-7xl text-cream leading-none mt-1 mb-1 sm:mt-2 sm:mb-2"
+          style={{ fontFamily: "'Better Land', cursive" }}
+        >
+          &amp;
         </div>
         <h1 className="font-script text-6xl sm:text-7xl md:text-8xl text-cream leading-[0.9]">
           Валерий
