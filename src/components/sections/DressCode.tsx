@@ -4,16 +4,16 @@ const colors = [
   { hex: "#2F4156", name: "Navy" },
   { hex: "#5A7493", name: "Twilight" },
   { hex: "#a5c1d6", name: "Mist" },
-  { hex: "#7b917b", name: "Sage" },
-  { hex: "#AC8266", name: "Caramel" },
-  { hex: "#f7c9d4", name: "Blush" },
+  { hex: "#d6baa5", name: "Champagne" },
+  { hex: "#93795a", name: "Bronze" },
+  { hex: "#56442f", name: "Coffee" },
 ];
 
 export function DressCode() {
   return (
     <section className="relative bg-cream py-20 px-4">
       <Reveal className="relative z-10 max-w-6xl mx-auto text-center">
-        <p className="font-serif text-5xl md:text-6xl text-wine">Дресс-код</p>
+        <p className="font-serif text-4xl md:text-5xl text-wine">Дресс-код</p>
         <p className="mt-6 max-w-xl mx-auto text-ink/75 leading-relaxed">
           Мы будем искренне рады, если в своих образах вы учтёте цветовую гамму нашего праздника
         </p>

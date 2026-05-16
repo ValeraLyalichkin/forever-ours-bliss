@@ -8,7 +8,7 @@ export function Venue() {
   return (
     <section className="relative bg-forest text-cream py-20 px-4">
       <Reveal className="relative z-10 max-w-3xl mx-auto text-center">
-        <p className="font-serif text-5xl md:text-6xl mb-2">Место проведения</p>
+        <p className="font-serif text-4xl md:text-5xl mb-2">Место проведения</p>
         <h3 className="font-display text-3xl md:text-4xl mb-2">AZIMUT Отель</h3>
         <p className="text-cream/80 mb-8 max-w-md mx-auto">{address}</p>
 

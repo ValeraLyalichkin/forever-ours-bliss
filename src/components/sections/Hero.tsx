@@ -9,21 +9,9 @@ export function Hero() {
         <h1 className="font-script text-6xl sm:text-7xl md:text-8xl text-cream leading-[0.9]">
           Наталья
         </h1>
-        <div className="flex justify-center my-2 sm:my-3">
-          <svg
-            viewBox="0 0 100 120"
-            className="w-14 sm:w-16 md:w-20 h-auto text-cream"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2.4"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            aria-label="and"
-          >
-            <path d="M70 22 C66 12, 50 10, 42 18 C34 26, 36 38, 46 48 C58 60, 76 72, 78 88 C79 100, 70 108, 58 108 C42 108, 28 96, 28 80 C28 64, 42 52, 60 46 C72 42, 82 44, 88 50" />
-            <path d="M64 96 L92 110" />
-          </svg>
-        </div>
+        <p className="font-script text-6xl sm:text-7xl md:text-8xl text-cream leading-[0.9]">
+          и
+        </p>
         <h1 className="font-script text-6xl sm:text-7xl md:text-8xl text-cream leading-[0.9]">
           Валерий
         </h1>
