@@ -17,15 +17,6 @@ export function Hero() {
         </h1>
       </div>
 
-      {/* Arched couple photo */}
-      <div className="relative z-10 mt-4 sm:mt-8 w-full flex justify-center">
-        <img
-          src={couple}
-          alt="Наталья и Валерий"
-          className="w-[55vw] max-w-[300px] sm:w-[68vw] sm:max-w-[340px] aspect-[3/4.4] object-cover rounded-2xl"
-        />
-      </div>
-
       {/* Date with decorative dashes */}
       <div className="relative z-10 mt-5 sm:mt-10 flex flex-col items-center gap-2">
         <div className="flex items-center gap-4">
