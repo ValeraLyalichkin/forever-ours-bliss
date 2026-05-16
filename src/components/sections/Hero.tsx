@@ -1,4 +1,4 @@
-import couple from "@/assets/couple.png";
+
 import { SketchCorners } from "../SketchCorners";
 
 export function Hero() {
