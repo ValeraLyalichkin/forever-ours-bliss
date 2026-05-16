@@ -1,4 +1,5 @@
 import { Reveal } from "../Reveal";
+import couple from "@/assets/couple.png";
 
 export function Invitation() {
   return (
@@ -10,6 +11,13 @@ export function Invitation() {
         <p className="text-base md:text-lg leading-relaxed text-forest tracking-wide font-light">
           С особой радостью и волнением приглашаем Вас разделить с нами самый важный день в нашей жизни — день, с которого начинается наша семья
         </p>
+        <div className="mt-10 flex justify-center">
+          <img
+            src={couple}
+            alt="Наталья и Валерий"
+            className="w-[55vw] max-w-[300px] sm:w-[68vw] sm:max-w-[340px] aspect-[3/4.4] object-cover rounded-2xl"
+          />
+        </div>
       </Reveal>
     </section>
   );

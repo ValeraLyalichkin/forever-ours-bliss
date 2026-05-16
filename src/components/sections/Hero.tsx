@@ -1,4 +1,4 @@
-import couple from "@/assets/couple.png";
+
 import { SketchCorners } from "../SketchCorners";
 
 export function Hero() {
@@ -15,15 +15,6 @@ export function Hero() {
         <h1 className="font-script text-6xl sm:text-7xl md:text-8xl text-cream leading-[0.9]">
           Валерий
         </h1>
-      </div>
-
-      {/* Arched couple photo */}
-      <div className="relative z-10 mt-4 sm:mt-8 w-full flex justify-center">
-        <img
-          src={couple}
-          alt="Наталья и Валерий"
-          className="w-[55vw] max-w-[300px] sm:w-[68vw] sm:max-w-[340px] aspect-[3/4.4] object-cover rounded-2xl"
-        />
       </div>
 
       {/* Date with decorative dashes */}
